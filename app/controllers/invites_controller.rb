@@ -1,10 +1,4 @@
 class InvitesController < ApplicationController
-  # GET /invites/new
-  def new
-    @invite = Invite.new
-    # new.html.haml
-  end
-
   # POST /invites
   def create
     @invite = Invite.new(params[:invite])

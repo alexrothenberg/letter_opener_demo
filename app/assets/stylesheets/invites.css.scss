@@ -37,6 +37,7 @@ body {
 #content {
   width: 800px;
   margin: auto;
+  padding: 10px;
 	background: #fff;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -56,6 +57,16 @@ body {
       font-weight: bold;
       margin: 0 0 10px;
     }
+  }
+
+  form.new_invite {
+    text-align: center;
+    width:500px;
+  	margin:auto;
+    margin-top: 20px;
+    background: #aaa;
+    border-radius: 15px;
+    border:5px dashed #aaa;
   }
   
 }
