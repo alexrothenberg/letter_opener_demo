@@ -9,6 +9,6 @@ class InviteMailer < ActionMailer::Base
   def invite_requested(invite)
     @invite = invite
 
-    mail :to => "to@example.org"
+    mail :to => invite.email
   end
 end
