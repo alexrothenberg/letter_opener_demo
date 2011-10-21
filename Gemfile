@@ -8,6 +8,7 @@ gem 'rails', '3.1.1'
 gem 'sqlite3'
 
 gem 'json'
+gem 'haml'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -31,3 +32,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug'
 
+group :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'email_spec'
+  gem 'factory_girl_rails'
+end
