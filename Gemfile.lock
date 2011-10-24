@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/alexrothenberg/letter_opener.git
-  revision: a69f144ff3e4a88d6e9bd87c35a728310475eba6
+  revision: 337193073145b2f20457795d9337e5430dad8916
   branch: on_a_server
   specs:
     letter_opener (0.0.2)
