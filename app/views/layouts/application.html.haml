@@ -20,6 +20,5 @@
     .footer
       == Copyright #{Time.now.year}
     
-    .footer  
     - if Rails.env.staging? || Rails.env.development?
-      = link_to 'Preview Emails', letter_opener_letters_path
+      .footer= link_to 'Preview Emails', letter_opener_letters_path
