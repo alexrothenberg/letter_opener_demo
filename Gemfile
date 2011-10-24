@@ -19,10 +19,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'letter_opener', :path => 'vendor/gems/letter_opener'
+gem 'letter_opener', :path => './vendor/gems/letter_opener'
 
 # Heroku config
-group :production do
+group :staging, :production do
   gem 'therubyracer'
   gem 'pg'
   gem 'thin'
