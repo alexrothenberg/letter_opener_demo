@@ -1,5 +1,7 @@
-PATH
-  remote: vendor/gems/letter_opener
+GIT
+  remote: git://github.com/alexrothenberg/letter_opener.git
+  revision: c5aeef7dc381e4325964eb17f19da32b9998f5e5
+  branch: temp
   specs:
     letter_opener (0.0.2)
       fakefs
