@@ -20,6 +20,9 @@ LetterOpenerDemo::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  # For Heroku
+  config.assets.compile = true
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 
@@ -47,6 +50,9 @@ LetterOpenerDemo::Application.configure do
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
+
+  config.action_mailer.delivery_method = :letter_opener
+  LetterOpener.cannot_write_to_file_system!
 
   # Enable threaded mode
   # config.threadsafe!
