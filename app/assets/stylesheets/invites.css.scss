@@ -71,10 +71,22 @@ body {
   
 }
 
-.footer {
+#footer {
   margin: 5px 0px 0px 0px;
   text-align: center;
   font-weight: bold;
   color: white;
   font-size: 12px;
+}
+
+#preview_emails {
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+	background: #aaa;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+  border-radius: 15px;
+  border:10px solid #333;
+  margin-top: 20px;
 }

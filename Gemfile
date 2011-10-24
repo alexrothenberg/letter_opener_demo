@@ -19,7 +19,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'letter_opener',  :git => "git://github.com/alexrothenberg/letter_opener.git", :branch => "temp"
+gem 'letter_opener',  :git => "git://github.com/alexrothenberg/letter_opener.git", :branch => "on_a_server"
 
 # Heroku config
 group :staging, :production do

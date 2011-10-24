@@ -17,8 +17,11 @@
           .flash_message= value 
       = yield
 
-    .footer
+    #footer
       == Copyright #{Time.now.year}
     
     - if Rails.env.staging? || Rails.env.development?
-      .footer= link_to 'Preview Emails', letter_opener_letters_path
+      #preview_emails
+        %h2 This section will not be here in production
+        
+        %p You can #{link_to 'Preview the Emails that would be sent', letter_opener_letters_path} since we do not actually send invitation emails.
